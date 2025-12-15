@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Foodie</div>
+            <ul id="menu-bar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#flavours">Flavours</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+            <span><i class="fa-solid fa-bars"></i></span>
+        </nav>
+        <section id="home">
+            <div class="hero-container">
+                <div class="over">
+                    <div class="inside-container">
+                        <h2>welcome to my <span>pizza</span> shop!</h2>
+                        <p>good quality pizza Savor our delicious pizzas, made fresh with love and care.</p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="flavours">
+            <div class="main-container">
+                <div class="card">
+                    <div class="image-container">
+                        <img src="assets/card-1.png" alt="">
+                    </div>
+                    <p>fresh,good,quality</p>
+                    <h5>chese flavour</h5>
+                    <span>99$</span>
+                    <button>Add To Cart</button>
+                </div>
+
+
+                <div class="card">
+                    <div class="image-container">
+                        <img src="assets/card-1.png" alt="">
+                    </div>
+                    <p>fresh,good,quality</p>
+                    <h5>chese flavour</h5>
+                    <span>99$</span>
+                    <button>Add To Cart</button>
+
+                </div>
+
+                <div class="card">
+                    <div class="image-container">
+                        <img src="assets/card-1.png" alt="">
+                    </div>
+                    <p>fresh,good,quality</p>
+                    <h5>chese flavour</h5>
+                    <span>99$</span>
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script>
+    const btn = document.querySelector('span')
+    const menu = document.querySelector('#menu-bar')
+    btn.addEventListener('click', () => {
+        menu.classList.toggle('show')
+    })
+</script>
+
+</html>

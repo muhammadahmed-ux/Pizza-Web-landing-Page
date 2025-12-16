@@ -191,8 +191,8 @@ nav span {
     height: 55%;
     display: flex;
     justify-content: center;
-    background-color: black;
     position: absolute;
+    background-color: rgba(0,0,0,0.200);
     top: 0;
     border-radius: 10px;
     
@@ -380,6 +380,7 @@ background-color: rgba(0, 0, 0, 0.700);
 .social-links i:hover {
     background-color: yellow;
     color: black;
+    cursor: pointer;
 }
 
 

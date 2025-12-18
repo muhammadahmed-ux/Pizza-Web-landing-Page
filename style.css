@@ -145,11 +145,14 @@ nav span {
     margin-top: 2rem;
     transition: 0.3s;
     display: flex;
+    font-weight: 700;
+    font-family: "jost",sans-serif;
 }
 
 .hero-container button:hover {
     background-color: black;
     color: white;
+    box-shadow: 0 0 10px 3px yellow;
 }
 
 .main-container {
@@ -192,7 +195,7 @@ nav span {
     display: flex;
     justify-content: center;
     position: absolute;
-    background-color: rgba(0,0,0,0.200);
+    background-color: rgba(255, 255, 0, 0.144);
     top: 0;
     border-radius: 10px;
     
@@ -381,17 +384,10 @@ background-color: rgba(0, 0, 0, 0.700);
     background-color: yellow;
     color: black;
     cursor: pointer;
+    box-shadow: 0 0 10px 3px yellow;
 }
 
 
-.footer-bottom {
-    border-top: 1px solid #333;
-    margin-top: 40px;
-    text-align: center;
-    padding-top: 15px;
-    font-size: 14px;
-    color: #aaa;
-}
 
 @media (max-width: 768px) {
 
